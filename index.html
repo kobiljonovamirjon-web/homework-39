@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>long.play — Tape doesn't last.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <!-- 3D scene -->
+  <canvas id="scene"></canvas>
+
+  <!-- Overlays -->
+  <div class="vignette"></div>
+  <div class="frame"></div>
+
+  <!-- Top navigation -->
+  <header class="nav">
+    <div class="logo">long<span>.play</span></div>
+    <nav>
+      <a href="#services">SERVICES</a>
+      <a href="#formats">FORMATS</a>
+      <a href="#pricing">PRICING</a>
+      <a href="#contacts">CONTACTS</a>
+    </nav>
+    <a href="#start" class="cta-top">GET STARTED</a>
+  </header>
+
+  <!-- Hero content -->
+  <main class="hero">
+    <div class="title-wrap">
+      <h1>Tape doesn't last.</h1>
+      <p class="sub">The players are going too.</p>
+    </div>
+
+    <p class="desc">
+      We scan VHS, Hi8, Super 8 and MiniDV frame by frame, correct the color by hand, and send back files you'll still be able to open in twenty years.
+    </p>
+
+    <button class="btn" id="start">
+      <span>Start with one tape</span>
+      <span class="btn-icon" aria-hidden="true">≈</span>
+    </button>
+  </main>
+
+  <footer class="foot">
+    <span class="lock" aria-hidden="true">🔒</span> PRIVACY-FIRST. NO DATA RESOLD.
+  </footer>
+
+  <!-- Three.js (pinned version) and our scene script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
